@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Survey</title>
 </head>
 <body>
-    
-</body>
+    <div id="container">
+<h1 id="title">NETFLIX</h1>
+<h2 id="description">Thank you for signingup at Netflix. Tell us more about your self</h2>
+<div>
+<form action="result.html" id="survey-form">
+<div class="box">
+    <label for="name">Name</label>
+    <input type="text" name="fullName" id="name" placeholder="Enter your name">
+</div>
+<div class="box">
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" max="100" placeholder="Age">
+</div>
+<div class="box">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email">
+</div>
+<div class="box">
+    <label for="content">Content type</label>
+    <select name="content" id="content">
+        <option value="series">Series</option>
+        <option value="film">Films</option>
+        <option value="anime">Animations</option>
+        <option value="documentary">Documentaries</option>
+    </select>
+</div>
+<div class="box">
+    <h4>Movie type</h4>
+
+<input type="checkbox" name="movieType" id="comedy">
+<label for="comedy">Comedy</label><br>
+<input type="checkbox" name="movieType" id="action">
+<label for="action">Action</label><br>
+<input type="checkbox" name="movieType" id="romance" checked>
+<label for="romance">Romance</label>
+</div>
+<div class="box">
+    <h4>Gender</h4>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label><br>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label><br>
+    <input type="radio" name="gender" id="other">
+    <label for="other">Other</label>
+</div>
+<div class="box">
+    <label for="feedBack">Feed back</label><br>
+    <textarea name="feedBack" id="feedBack" cols="30" rows="10" placeholder="Any comment"></textarea>
+</div>
+<div class="box">
+    <input type="submit" value="Submit">
+</div>
+</form>
+
+</div>
+    </div>
 </html>
