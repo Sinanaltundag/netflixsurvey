@@ -9,25 +9,25 @@
 </head>
 <body>
     <div id="container">
-<h1 id="title">NETFLIX</h1>
+<h1 id="title">NET<span id="flix">FLIX</span></h1>
 <h2 id="description">Thank you for signingup at Netflix. Tell us more about your self</h2>
-<div>
+
 <form action="result.html" id="survey-form">
 <div class="box">
-    <label for="name">Name</label><br>
-    <input type="text" name="fullName" id="name" placeholder="Enter your name">
+    <label for="name">Name</label><br><br>
+    <input type="text" class="textbox" name="fullName" id="name" placeholder="Enter your name">
 </div>
 <div class="box">
-    <label for="age">Age</label><br>
-    <input type="number" name="age" id="age" max="100" placeholder="Age">
+    <label for="age">Age</label><br><br>
+    <input type="number" class="textbox" name="age" id="age" max="100" placeholder="Age">
 </div>
 <div class="box">
-    <label for="email">Email</label><br>
-    <input type="email" name="email" id="email" placeholder="Enter your email">
+    <label for="email">Email</label><br><br>
+    <input type="email" class="textbox" name="email" id="email" placeholder="Enter your email">
 </div>
 <div class="box">
-    <label for="content">Content type</label><br>
-    <select name="content" id="content">
+    <label for="content">Content type</label><br><br>
+    <select name="content" id="content" class="textbox">
         <option value="series">Series</option>
         <option value="film">Films</option>
         <option value="anime">Animations</option>
@@ -35,17 +35,17 @@
     </select>
 </div>
 <div class="box">
-    <h4>Movie type</h4>
+    <p>Movie type</p>
 
-<input type="checkbox" name="movieType" id="comedy">
+<input type="checkbox" name="movieType" id="comedy" value="comedy">
 <label for="comedy">Comedy</label><br>
-<input type="checkbox" name="movieType" id="action">
+<input type="checkbox" name="movieType" id="action" value="action">
 <label for="action">Action</label><br>
-<input type="checkbox" name="movieType" id="romance" checked>
+<input type="checkbox" name="movieType" id="romance" value="romance" checked>
 <label for="romance">Romance</label>
 </div>
 <div class="box">
-    <h4>Gender</h4>
+    <p>Gender</p>
     <input type="radio" name="gender" id="male">
     <label for="male">Male</label><br>
     <input type="radio" name="gender" id="female">
@@ -54,14 +54,14 @@
     <label for="other">Other</label>
 </div>
 <div class="box">
-    <label for="feedBack">Feed back</label><br>
-    <textarea name="feedBack" id="feedBack" cols="30" rows="10" placeholder="Any comment"></textarea>
+    <label for="feedBack">Feed back</label><br><br>
+    <textarea name="feedBack" id="feedBack" cols="40" rows="5" placeholder="Any comment"></textarea>
 </div>
-<div class="box">
-    <input type="submit" value="Submit">
+<div class="box" style="align-items: center;">
+    <input type="submit" value="Submit" id="submit">
 </div>
 </form>
 
-</div>
+
     </div>
 </html>

@@ -1,0 +1,64 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url("background_image.jpg");
+  color: white;
+}
+#container {
+  margin: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+#title {
+  margin: 8px;
+
+  font-family: "Bowlby One SC";
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+#flix {
+  color: red;
+}
+#description {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 10px;
+}
+#survey-form {
+  width: 450px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+p {
+  margin-bottom: 3px;
+}
+
+.box {
+  margin: 20px;
+}
+.textbox {
+  width: 350px;
+
+  padding: 15px;
+}
+#submit {
+  color: white;
+  font-size: 18px;
+  background-color: red;
+  border-radius: 30px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+#feedBack {
+  padding: 15px;
+}
